@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# E-DOA
 
-You can use the [editor on GitHub](https://github.com/arifinizz/edoa/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+E-Doa merupakan project inisiatif anak muda guna memudahkan akses masyarakat terhadap hadits, do'a & jadwal sholat melalui teknologi modern yang dekat dengan keseharian mobilitas generasi produktif yang dinamis
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Tentang repository ini
 
-### Markdown
+[E-Doa] project master repository
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Tech
 
-```markdown
-Syntax highlighted code block
+Di bagian Frontend, [E-Doa] menggunakan beberapa project open-source untuk dapat bekerja maksimal:
 
-# Header 1
-## Header 2
-### Header 3
+* [bulma] - Framework CSS untuk _User Interface_
+* [fontawesome] - SVG icon untuk _User Experience_ yang lebih baik
+* [animate.css] - Animasi CSS & SVG icon untuk _User Experience_ yang lebih interaktif
+* [jquery] - Javascript library
+* [ST Ryde] - Font di page home by [Stereotypes]
 
-- Bulleted
-- List
+Di bagian Backend, [E-Doa] menggunakan: 
 
-1. Numbered
-2. List
+* [laravel] - PHP framework
+* [siswadi.praytime] - HTTP JSON API Waktu sholat by [Siswadi]
 
-**Bold** and _Italic_ and `Code` text
+[E-Doa] juga menggunakan [nodejs] (npm) untuk menginstall beberapa _package_ diatas
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arifinizz/edoa/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[bulma]: <https://bulma.io/>
+[bulma-extensions]: <https://wikiki.github.io/>
+[fontawesome]: <https://fontawesome.com/>
+[animate.css]: <https://daneden.github.io/animate.css/>
+[jquery]: <http://jquery.com>
+[nodejs]: <https://nodejs.org/>
+[laravel]: <https://laravel.com/>
+[E-Doa]: <https://github.com/arifinizz/e-doa.git>
+[ST Ryde]: <https://www.fonts.com/font/stereotypes/st-ryde>
+[Stereotypes]: <https://www.fonts.com/font/stereotypes>
+[siswadi.praytime]: <https://gist.github.com/siswadi/b24f13ddc80eb92e0b01a8a595c32433>
+[Siswadi]: <https://gist.github.com/siswadi/>
