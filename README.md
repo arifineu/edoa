@@ -2,22 +2,24 @@
 
 E-Doa merupakan project inisiatif anak muda guna memudahkan akses masyarakat terhadap hadits, do'a & jadwal sholat melalui teknologi modern yang dekat dengan keseharian mobilitas generasi produktif yang dinamis
 
-## Tentang repository ini
+## Tentang Repository Ini
 
 [E-Doa] project master repository
 
 ## Tech
 
-* Di bagian Frontend, [E-Doa] menggunakan beberapa project open-source untuk dapat bekerja maksimal:
+Di bagian Frontend, [E-Doa] menggunakan beberapa project open-source untuk dapat bekerja maksimal:
   - [bulma] - Framework CSS untuk _User Interface_
   - [fontawesome] - SVG icon untuk _User Experience_ yang lebih baik
   - [animate.css] - Animasi CSS & SVG icon untuk _User Experience_ yang lebih interaktif
   - [jquery] - Javascript library
   - [ST Ryde] - Font di page home by [Stereotypes]
-* Di bagian Backend, [E-Doa] menggunakan: 
+
+Di bagian Backend, [E-Doa] menggunakan: 
   - [laravel] - PHP framework
   - [siswadi.praytime] - HTTP JSON API Waktu sholat by [Siswadi]
-* [E-Doa] juga menggunakan [nodejs] (npm) untuk menginstall beberapa _package_ diatas
+
+[E-Doa] juga menggunakan [nodejs] (npm) untuk menginstall beberapa _package_ diatas
 
 [bulma]: <https://bulma.io/>
 [bulma-extensions]: <https://wikiki.github.io/>
@@ -31,3 +33,9 @@ E-Doa merupakan project inisiatif anak muda guna memudahkan akses masyarakat ter
 [Stereotypes]: <https://www.fonts.com/font/stereotypes>
 [siswadi.praytime]: <https://gist.github.com/siswadi/b24f13ddc80eb92e0b01a8a595c32433>
 [Siswadi]: <https://gist.github.com/siswadi/>
+
+## Screenshots
+![Users page screenshot](storage/demo_pages/home.png)
+![Users page screenshot](storage/demo_pages/screenshot.png)
+
+## Cara Menginstall
