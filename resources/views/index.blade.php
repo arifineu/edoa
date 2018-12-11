@@ -263,16 +263,15 @@
         <div class="container">
             <center>
               <h3 class="title is-3">Jadwal Sholat Surabaya</h3>
-              <!-- <iframe id="iframe" style="width: 182px; height: 358px; border: 1px solid #ddd;" frameborder="0" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1625822/shafi/9/0/20/18"> </iframe> -->
               <?php
-              $api=array();
-              $json=file_get_contents("https://time.siswadi.com/pray/Surabaya");
-              $api=json_decode($json, true);
-              // print_r($api);
-              if(isset($api)) {
-              $i=0;
-              foreach($api as $data) {
-              if($i++==1) break;
+                $api=array();
+                $json=file_get_contents("https://time.siswadi.com/pray/Surabaya");
+                $api=json_decode($json, true);
+                // print_r($api);
+                if(isset($api)) {
+                $i=0;
+                foreach($api as $data) {
+                if($i++==1) break;
               ?>
               <table class="table is-hoverable" id="t-transparent">
                 <thead>
@@ -454,15 +453,15 @@
     <!-- END SCROLL TO TOP ICON -->
     <script> // ===== scroll to top =====
       $(window).scroll(function() {
-        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        if ($(this).scrollTop() >= 50) {
+            $('#return-to-top').fadeIn(200);
         } else {
-            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            $('#return-to-top').fadeOut(200);
         }
       });
-      $('#return-to-top').click(function() {      // When arrow is clicked
+      $('#return-to-top').click(function() {
         $('body,html').animate({
-            scrollTop : 0                       // Scroll to top of body
+            scrollTop : 0
         }, 500);
       });
     </script>

@@ -13,10 +13,9 @@
 
 //Route::redirect('/', '/admin/dashboard');
 
-Route::get('/', function()
-{
+Route::get('/', function() {
     return View::make('index');
-});
+})->name('index');
 
 Auth::routes();
 

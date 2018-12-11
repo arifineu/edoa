@@ -9,11 +9,6 @@
                 <div class="columns">
                     <div class="column is-one-third is-offset-one-third">
                         <div class="box">
-                            {{--<div class="logo">--}}
-                                {{--<figure class="image is-3by2">--}}
-                                    {{--<img src="{{ url('images/logo.png') }}">--}}
-                                {{--</figure>--}}
-                            {{--</div>--}}
                             <div class="logo">
                               <span class="title" id="title">E DO'A</span>
                             </div>
@@ -43,7 +38,7 @@
 
                                 <div class="buttons is-right">
                                   <button class="button is-link is-rounded" type="submit" name="submit"><i class="fas fa-sign-in-alt"></i>&nbspLogin</button>
-                                  <button class="button is-link is-outlined is-rounded"><i class="fas fa-arrow-left"></i>&nbspBack</button>
+                                  <a href="{{ route('index') }}" class="button is-link is-outlined is-rounded"><i class="fas fa-arrow-left"></i>&nbspBack</a>
                                 </div>
 
                                 <div class="field is-clearfix">
