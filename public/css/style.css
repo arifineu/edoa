@@ -1,0 +1,139 @@
+@font-face{
+    font-family:"St Ryde W01 Regular";
+    /* src:url("../Fonts/1293102/8c22adf5-0fd9-4e62-8e2e-6ff732479a87.eot?#iefix"); */
+    /* src:url("../Fonts/1293102/8c22adf5-0fd9-4e62-8e2e-6ff732479a87.eot?#iefix") format("eot"); */
+    src:url("../fonts/1293102/c9576255-7894-49e4-9dd8-3f269d4cce5b.woff2") format("woff2");
+    src:url("../fonts/1293102/d1b36457-8148-45dd-8698-3dbeac99b08c.woff") format("woff");
+    src:url("../fonts/1293102/2cf07e52-631c-4a7a-97ec-26340a960579.ttf") format("truetype");
+}
+body{
+    /* font-family: 'Ubuntu', serif; */
+    font-family: 'St Ryde W01 Regular', serif;
+}
+
+#landing{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#navbar-padding{
+    padding: 15px 15px;
+}
+
+.is-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 300ms linear;
+}
+
+#link, #title{
+    color: hsl(217, 71%, 53%)
+}
+
+#title:hover{
+    text-shadow: 0 0 2px black;
+}
+
+#text-outline-link{
+    color: hsl(217, 71%, 53%);
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #3273dc;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff !important;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: #2958a5;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+#hover-animate:hover{
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+#doa{
+    /* margin-bottom: -25px; */
+}
+
+#hadits{
+    transform: skewY(3deg);
+    margin: -35px -35px;
+    z-index: -1;
+}
+
+#hadits-body{
+    transform: skewY(-3deg);
+}
+
+#t-transparent{
+    background-color: #ffffff00;
+}
+
+#about{
+    transform: skewY(-3deg);
+    margin: -35px -35px;
+    z-index: -1;
+}
+
+#about-body{
+    transform: skewY(3deg);
+}
+
+#footer{
+    background: #363636;
+    height: 150px;
+    font-family: 'Ubuntu', serif;
+}
+
+#footer-content{
+    padding-top: 40px;
+}
+
+.instagram {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    /* box-shadow: 0px 3px 10px rgba(0,0,0,.25); */
+}
