@@ -2,6 +2,13 @@
 
 E-Doa merupakan project inisiatif anak muda guna memudahkan akses masyarakat terhadap hadits, do'a & jadwal sholat melalui teknologi modern yang dekat dengan keseharian mobilitas generasi produktif yang dinamis
 
+## Table of Contents
+- [Tentang repository](#tentang-repository-ini)
+- [Tech](#tech)
+- [Screenshots](#screenshots)
+- [Cara Menginstall](#cara-menginstall)
+- [Dokumentasi](#dokumentasi)
+
 ## Tentang Repository Ini
 [E-Doa] project master repository
 
@@ -46,3 +53,14 @@ Di bagian Backend, [E-Doa] menggunakan:
 1. `composer install` : install via composer
 1. `yarn && yarn run dev` (or `npm install && npm run dev`) : install dependencies dan compile assets.
 1. Buat database kosong dengan nama `edoa`
+1. Modifikasi `.env` file dan sesuaikan sql server, username & password
+1. `php artisan key:generate` : Membuat kunci aplikasi dan link folder penyimpanan
+1. `php artisan migrate --seed` : Memindahkan database dari database laravel ke mysql
+1. `php artisan serve` : Menjalankan di server lokal.
+1. Login:
+   - Administrator_ user: email *admin@admin.com* - password *123456*
+   - Simple user_ user: email *user@user.com* - password *123456*
+   
+## Dokumentasi
+  - [Laravel documentation](https://laravel.com/docs)
+  - [Bulma documentation](http://bulma.io/documentation/overview/start)
