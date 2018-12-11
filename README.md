@@ -2,11 +2,11 @@
 
 E-Doa merupakan project inisiatif anak muda guna memudahkan akses masyarakat terhadap hadits, do'a & jadwal sholat melalui teknologi modern yang dekat dengan keseharian mobilitas generasi produktif yang dinamis
 
-### Tentang repository ini
+## Tentang repository ini
 
 [E-Doa] project master repository
 
-### Tech
+## Tech
 
 * Di bagian Frontend, [E-Doa] menggunakan beberapa project open-source untuk dapat bekerja maksimal:
   - [bulma] - Framework CSS untuk _User Interface_
@@ -17,8 +17,7 @@ E-Doa merupakan project inisiatif anak muda guna memudahkan akses masyarakat ter
 * Di bagian Backend, [E-Doa] menggunakan: 
   - [laravel] - PHP framework
   - [siswadi.praytime] - HTTP JSON API Waktu sholat by [Siswadi]
-
-[E-Doa] juga menggunakan [nodejs] (npm) untuk menginstall beberapa _package_ diatas
+* [E-Doa] juga menggunakan [nodejs] (npm) untuk menginstall beberapa _package_ diatas
 
 [bulma]: <https://bulma.io/>
 [bulma-extensions]: <https://wikiki.github.io/>
