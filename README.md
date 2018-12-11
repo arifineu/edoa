@@ -3,15 +3,13 @@
 E-Doa merupakan project inisiatif anak muda guna memudahkan akses masyarakat terhadap hadits, do'a & jadwal sholat melalui teknologi modern yang dekat dengan keseharian mobilitas generasi produktif yang dinamis
 
 ## Tentang Repository Ini
-
 [E-Doa] project master repository
 
 ## Tech
-
 Di bagian Frontend, [E-Doa] menggunakan beberapa project open-source untuk dapat bekerja maksimal:
   - [bulma] - Framework CSS untuk _User Interface_
   - [fontawesome] - SVG icon untuk _User Experience_ yang lebih baik
-  - [animate.css] - Animasi CSS & SVG icon untuk _User Experience_ yang lebih interaktif
+  - [animate.css] - Animasi CSS & SVG icon untuk _User Interface_ yang lebih interaktif
   - [jquery] - Javascript library
   - [ST Ryde] - Font di page home by [Stereotypes]
 
@@ -39,3 +37,12 @@ Di bagian Backend, [E-Doa] menggunakan:
 ![Users page screenshot](storage/demo_pages/screenshot.png)
 
 ## Cara Menginstall
+1. Pastikan pc sudah terinstall [Composer](https://getcomposer.org/), [Git](https://git-scm.com/), [Node](https://nodejs.org/en/) dan [NPM](https://www.npmjs.com/).
+1. Download atau clone repository ini, lalu buka terminal/cmd:
+   ```
+   git clone https://github.com/arifinizz/edoa.git edoa
+   cd edoa
+   ```
+1. `composer install` : install via composer
+1. `yarn && yarn run dev` (or `npm install && npm run dev`) : install dependencies dan compile assets.
+1. Buat database kosong dengan nama `edoa`
