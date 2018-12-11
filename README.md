@@ -8,18 +8,15 @@ E-Doa merupakan project inisiatif anak muda guna memudahkan akses masyarakat ter
 
 ### Tech
 
-Di bagian Frontend, [E-Doa] menggunakan beberapa project open-source untuk dapat bekerja maksimal:
-
-* [bulma] - Framework CSS untuk _User Interface_
-* [fontawesome] - SVG icon untuk _User Experience_ yang lebih baik
-* [animate.css] - Animasi CSS & SVG icon untuk _User Experience_ yang lebih interaktif
-* [jquery] - Javascript library
-* [ST Ryde] - Font di page home by [Stereotypes]
-
-Di bagian Backend, [E-Doa] menggunakan: 
-
-* [laravel] - PHP framework
-* [siswadi.praytime] - HTTP JSON API Waktu sholat by [Siswadi]
+* Di bagian Frontend, [E-Doa] menggunakan beberapa project open-source untuk dapat bekerja maksimal:
+  - [bulma] - Framework CSS untuk _User Interface_
+  - [fontawesome] - SVG icon untuk _User Experience_ yang lebih baik
+  - [animate.css] - Animasi CSS & SVG icon untuk _User Experience_ yang lebih interaktif
+  - [jquery] - Javascript library
+  - [ST Ryde] - Font di page home by [Stereotypes]
+* Di bagian Backend, [E-Doa] menggunakan: 
+  - [laravel] - PHP framework
+  - [siswadi.praytime] - HTTP JSON API Waktu sholat by [Siswadi]
 
 [E-Doa] juga menggunakan [nodejs] (npm) untuk menginstall beberapa _package_ diatas
 
