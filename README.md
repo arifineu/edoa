@@ -16,7 +16,7 @@ E-Doa merupakan project inisiatif anak muda guna memudahkan akses masyarakat ter
 Di bagian Frontend, [E-Doa] menggunakan beberapa project open-source untuk dapat bekerja maksimal:
   - [bulma] - Framework CSS untuk _User Interface_
   - [fontawesome] - SVG icon untuk _User Experience_ yang lebih baik
-  - [animate.css] - Animasi CSS & SVG icon untuk _User Interface_ yang lebih interaktif
+  - [animate.css] - Animasi CSS untuk _User Interface_ yang lebih interaktif
   - [jquery] - Javascript library
   - [ST Ryde] - Font di page home by [Stereotypes]
 
